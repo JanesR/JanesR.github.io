@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-Regular.ttf");
+}
+
+html{
+    border: none;
+}
+
+body{
+    background-color: #0D1B2A;
+    font-family: "Barlow";
+    border: none;
+    padding: none;
+}
+
+.personal_image{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-image: url("../img/personal_foto.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 1px 1px #778DA9;
+    position:relative;
+}
+
+.video-container {
+    height: 250px;
+    width: auto;
+    position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #dc0000;
+  padding: 10px;
+}
