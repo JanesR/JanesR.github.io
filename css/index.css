@@ -8,13 +8,9 @@ html {
 }
 
 body {
-
-    border: none;
-    padding: none;
     font-family: "Barlow";
-    padding-top: 50px;
+    
 }
-
 
 .personal_image {
     height: 250px;
@@ -105,4 +101,22 @@ article{
     height: 50px;
     width: 50px;
     margin: 10px;
+}
+
+.icon_skils{
+    height: 50px;
+    width: 50px;
+}
+
+.btn_skils{
+    border-radius: 10px;
+    color:white;
+    background-color: #1B263B;
+    margin: 10px;
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px 5px #778DA9;
 }
