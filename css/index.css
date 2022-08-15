@@ -69,9 +69,31 @@ body {
     box-shadow: 1px 1px 5px;
 }
 
+.jobs {
+    background-color: #1B263B;
+    color: #E0E1DD;
+    margin: 50px;
+    padding: 50px;
+    min-height: 700px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px darkgray;
+
+}
+
+.education {
+    background-color: #415A77;
+    color: #E0E1DD;
+    margin: 50px;
+    padding: 40px;
+    min-height: 700px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+}
 
 .projects {
-    background-color: #415A77;
+    background-color: #1B263B;
     color: #E0E1DD;
     margin: 50px;
     padding: 40px;
@@ -119,4 +141,16 @@ article{
     display: inline-block;
     text-align: center;
     box-shadow: 5px 5px 5px #778DA9;
+}
+
+.job_hist{
+    padding: 30px;
+    text-align: justify;
+    margin: 30px;
+}
+
+.edu_hist{
+    padding: 30px;
+    text-align: justify;
+    margin: 30px;
 }
